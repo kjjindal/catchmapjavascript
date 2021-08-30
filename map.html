@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1> Thanks for watching my video and please do subscribe my channel and please like the video  </h1>
+
+
+
+    
+
+
+
+    <script>
+
+          // map method is used with array 
+//   let arr_1=['kal','parso','aaj','today'];
+
+//           console.log(arr_1);
+
+//           arr_1.map((data)=>{
+//               console.log(data)
+//           })
+
+          // map method is generally used when array is collection of key value pair 
+
+          let arr_2=[{name:'rajesh',batch:'H',roll:15},
+          {name:'ajay',batch:'E',roll:2},
+          {name:'jatin',batch:'H',roll:10},
+          {name:'harsh',batch:'E',roll:8},
+          {name:'neha',batch:'E',roll:13},
+          ]
+
+
+          //method 1   ----  this method is known as destructure method
+        //   arr_2.map(({name,batch,roll})=>{
+        //       console.log(`name is ${name} and batch is ${batch} and roll number is ${roll}`)
+        //   })
+
+
+
+        //method 2
+        arr_2.map((data)=>{
+              console.log(`name is ${data.name} and batch is ${data.batch} and roll number is ${data.roll}`)
+          })
+    
+
+           // both method gives same output 
+
+
+
+      //output 
+//       name is rajesh and batch is H and roll number is 15
+//  name is ajay and batch is E and roll number is 2
+//  name is jatin and batch is H and roll number is 10
+//  name is harsh and batch is E and roll number is 8
+//  name is neha and batch is E and roll number is 13
+
+
+
+
+    </script>
+
+</body>
+
+</html>
